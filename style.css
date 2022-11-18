@@ -167,14 +167,23 @@ body {
         padding: 20px;
     }
 
+    .recept {
+        min-width: 48%;
+    }
+
 }
 
 /* webové rozhraní */
 
 @media (min-width: 960px) {
 
+    html {
+        margin-left: auto; margin-right: auto;
+    }
+
     .recepty {
         flex-direction: row;
+        
     }
 
     .hlavni-recept {
